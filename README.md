@@ -1,18 +1,10 @@
 #CSGO HUD GameState Integration
 
-https://www.youtube.com/watch?v=FM1-iapbEtc
+[![Demonstration of HUD GameState Integration](https://img.youtube.com/vi/FM1-iapbEtc/0.jpg)](https://www.youtube.com/watch?v=FM1-iapbEtc)
 
-# Install 
+# Usage
 
-* If you have GIT, you can use `git clone https://github.com/Double0negative/CSGO-HUD.git` to download the project. Otherwise, Click the Download Zip button above
-* Install Node.JS (NPM is included)
-* Create a file named `gamestate_integration_hud.cfg` in your csgo cfg folder (`steamapps/common/Counter-Strike Global Offensive/csgo/cfg/`) copy-paste from https://gist.github.com/Double0negative/dd24fae86c48d277de0a
-* open CMD, type: cd \where\you\extracted\the\zip\CSGO-HUD-master
-* in CMD: `npm install`
-* in CMD: `node server.js`
-* You should then be able to connect in a web browser by going to `http://localhost:2626`. Start up your game and connect to a match and data should begin streaming
-* Linux and Mac setup is basically identical, just switch out CMD for Terminal
-
-
-
-
+0. Clone this repository and install NodeJS
+1. Copy `gamestate_integration_hud.cfg` to your CSGO cfg folder (`steamapps/common/Counter-Strike Global Offensive/csgo/cfg/`)
+2. Run `npm start` in the folder where you cloned this repository
+3. Open `http://localhost:2626`
